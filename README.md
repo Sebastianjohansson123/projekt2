@@ -6,4 +6,4 @@ The original appearence of the page was: www.brf20.se.
 
 
 And the link below is how it looked after we made it a bit more modern and also adopted the original colors from the company logo into the webpage.
-[Click here to preview the page.](https://sebastianjohansson123.github.io/Projekt2/)
+[Click here to preview the page.](https://sebastianjohansson123.github.io/projekt2/)
