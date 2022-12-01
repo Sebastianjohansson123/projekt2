@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+body {
+  margin-top: 5rem
+}
+
+.carousel-div {
+margin-top: 10rem;
+}
+.carousel-div-mobile {
+display: none;
+}
+
+main {
+  width: 100%;
+  margin-top: 2rem;
+}
+.news-img {
+width: 100%;
+}
+
+.row {
+margin-bottom: 1rem;
+}
+
+.news-text {
+  margin: 2rem 1rem;
+}
+.read-more {
+  color: rgb(224, 30, 38);
+}
+.read-more:hover {
+  color: white;
+  background-color: rgb(224, 30, 38);
+}
+
+.grey-background {
+  background-color: rgb(244, 246, 246);
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.red-text, .red-text:hover {
+color: rgb(224, 30, 38);
+}
+
+.bottom-menu-text {
+color: rgb(95, 95, 95);
+cursor: pointer;
+}
+.inner-bottom-menu {
+width: 90%;
+border-top: solid black 4px;
+}
+.bottom-menu-text:hover {
+color: rgb(224, 30, 38);
+}
+.h4-bottom-menu {
+margin-top: 0.5rem;
+cursor: pointer;
+font-weight: bold;
+}
+
+/* FÖR GRID NÄTET LÄNGST NER MED BILDER */
+.full-net {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 1rem;
+  column-gap: 1rem;
+  margin-bottom: 1rem;
+  }
+  /* FÖR GRID NÄTET LÄNGST NER MED BILDER */
+
+
+@media (max-width:767px) {
+.full-net {
+grid-template-columns: 1fr;
+}
+.carousel-div {
+display: none;
+}
+.carousel-div-mobile {
+display: contents;
+}
+.container-no-padding {
+padding: 0;
+}
+.h4-main {
+padding-top: 1rem;
+}
+}
+
+
+
+
+
